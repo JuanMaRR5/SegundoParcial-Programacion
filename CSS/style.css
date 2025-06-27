@@ -8,6 +8,12 @@
     background-color: rgb(179, 27, 27);
 }
 
+.i-prin:hover{
+    transition-duration:1.4s ;
+    transition-timing-function: linear;
+    width: 50rem;
+}
+
 
 .frase-imagen{
     display: flex;
@@ -172,6 +178,10 @@
     font-size: 2rem;
 }
 
+
+
+
+/*Formulario, imagen Error y de formulario enviado*/
 .errorT{
     padding-left: 4rem;
     padding-bottom: 29rem;
@@ -188,10 +198,22 @@
     font-size: 2rem;
 }
 
+.Formulario-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.textoF{
+    font-size: 1.7rem;
+    max-width: 90rem;
+    margin-left: 2.6rem;
+    margin-bottom: 2rem;
+}
+
 .form{
     margin-left: 2.7rem;
     margin-bottom: 2rem;
-    max-width: 55rem;
+    width: 40rem;
     background-color: rgb(201, 201, 201);
     border: 2px solid black;
     display: flex;
@@ -238,7 +260,10 @@
     color: white;
 }
 
-
+.img-formulario{
+    width: 30rem;
+    margin-left: 10rem;
+}
 
  .atras{
    margin-left: 3rem;

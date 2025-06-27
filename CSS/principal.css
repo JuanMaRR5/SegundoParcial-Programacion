@@ -53,11 +53,14 @@
     font-size: 1.4rem;
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
+   
 }
 
 
 .nav ul li a:hover {
      color: rgb(241, 27, 27);
+     font-size: 1.9rem;
+     transition-duration: 1.2s;
 }
 
 
@@ -92,8 +95,10 @@
 
 .aside ul li a:hover{
     color: red;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    transition-duration:1.2s ;
 }
-
 
 
 
